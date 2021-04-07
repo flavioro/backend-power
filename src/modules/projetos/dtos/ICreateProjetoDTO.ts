@@ -1,0 +1,31 @@
+export default interface ICreateProjetoDTO {
+  nome_projeto: string;
+  codigo_projeto: string;
+  descricao_projeto: string;
+  tipo_construcao: string;
+  categoria: string;
+  quartos: number;
+  suites: number;
+  garagens: number;
+  area_gourmet: number;
+  piscinas: number;
+  banheiros: number;
+  escritorios: number;
+  salas: number;
+  cozinhas: number;
+  varandas: number;
+  academia: number;
+  sala_tv: number;
+  brinquedoteca: number;
+  lavanderia: number;
+  adega: number;
+  area_construida: number;
+  largura_casa: number;
+  comprimento_casa: number;
+  largura_terreno: number;
+  comprimento_terreno: number;
+  recuo_frontal: number;
+  recuo_fundo: number;
+  recuo_esquerdo: number;
+  recuo_direito: number;
+}

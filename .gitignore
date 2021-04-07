@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+dist/
+.vscode/
+build/
+
+tmp/*
+!tmp/.gitkeep
+
+coverage/
+.env
+ormconfig.json
+yarn.lock
+yarn-error.log
+package-lock.json
+
+# Log
+`${__dirname}/*

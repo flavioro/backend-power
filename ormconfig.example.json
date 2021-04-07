@@ -1,0 +1,13 @@
+{
+    "type": "postgres",
+    "host": "162.241.132.87",
+    "port": 5432,
+    "username": "postgres",
+    "password": "6153d0f22a30ad12f9963c0a081c6351",
+    "database": "archshop",
+    "entities": ["./dist/modules/**/infra/typeorm/entities/*.js"],
+    "migrations": ["./dist/shared/infra/typeorm/migrations/*.js"],
+    "cli": {
+      "migrationsDir": "./dist/shared/infra/typeorm/migrations"
+    }
+}
